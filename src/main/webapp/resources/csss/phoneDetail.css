@@ -10,10 +10,9 @@
 
 .sub-conts {
     width: 1600px;
-    height: 4000px;
+    height: 3000px;
     margin: 0 auto;
     margin-top : 50px;
-    background-color: yellow;
 }
 
 .product-info .box-phone-info {
@@ -24,7 +23,6 @@
 
 .box-phone-info .phone-thumb {
     width: 700px;
-    background-color: red;
 }
 
 .box-phone-info .phone-detail {
@@ -290,7 +288,6 @@
     margin-top: 110px;
     width: 100%;
     height: 400px;
-    background-color: pink;
     
 }
 
@@ -749,16 +746,7 @@ a {
     outline: none;
     
 }
- .btn-text-right::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: calc(100% - 25px);
-    height: 1px;
-    background-color: #191919;
-}
+
 
  .btn-text-right:active {
             background-color: inherit;
@@ -795,12 +783,12 @@ a {
 
 .tab-btn-wrap li a {
     display: block;
-    padding: 15px 30px; /* 여백도 키워 크기 조정 */
+    padding: 15px 30px; 
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    font-size: 20px; /* 글자 크기를 키움 */
-    line-height: 1.5; /* 세로 정렬을 조정 */
+    font-size: 20px; 
+    line-height: 1.5; 
 }
 
 .tab-btn-wrap li a.on {
@@ -814,11 +802,11 @@ a {
 
 .tab-content {
     margin-top: 20px;
-    display: none; /* 기본적으로 숨겨짐 */
+    display: none; 
 }
 
 .tab-content.active {
-    display: block; /* 활성화된 탭만 표시 */
+    display: block; 
 }
 
 
@@ -827,8 +815,7 @@ a {
 /*  상테 스택 */
 .product-view{
 	width: 100%;
-	height: 900px;
-	background-color: pink;
+	height: 800px;
 	margin-top: 30px; 
 }
 
@@ -842,11 +829,7 @@ a {
     border-top: 1px solid #ddd;
 }
 
-.table-type-04 {
-    width: 100%;
-}
-
-.hidden {
+.hiddden {
     display: none !important;
     overflow: hidden;
     padding: 0 !important;
@@ -858,4 +841,249 @@ a {
     border: 0;
     clip: rect(0 0 0 0);
 }
+
+
+.table-type-04 {
+    border-collapse: collapse; 
+    width: 100%;
+    
+}
+
+/* tbody 스타일 */
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+/* tr 스타일 */
+.tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+/* th, td 스타일 */
+th, td {
+    border: 1px solid #ddd; 
+     padding: 16px 20px;
+    padding: 8px; 
+    color: #666;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+/* th 스타일 */
+th {
+    background-color: #f2f2f2; 
+    text-align: left; 
+}
+
+
+.tr:nth-child(even) {
+     
+}
+.tr:nth-child(odd) {
+    
+}
+
+ .table-type-04 th {
+    background-color: #eff1f5;
+    padding: 20px 0;
+    text-align: center;
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+    vertical-align: middle;
+}
+
+.table-type-04 > td {
+    padding-left: 30px;
+    text-align: left;
+    color: #666;
+    font-size: 16px;
+}
+
 /*  상테 스택 */
+
+
+.bottom-layer-pop {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 101;
+    width: 100%;
+    height:200px;
+    background-color: #fff;
+    border-top: 1px solid #662d91;
+}
+
+.bottom-layer-pop .bottom-pop-btn {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 20px;
+    background-color: #fff;
+    border-top: 1px solid #662d91;
+    border-left: 1px solid #662d91;
+    border-right: 1px solid #662d91;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom-pop-btn .ico-pop-btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    text-indent: -9999px;
+    transform: translateX(-50%) rotate(180deg);
+    transition: transform .3s;
+    background: url(/resourcess/img/ico-arrow-purple-type2.svg) no-repeat center;
+    background-size: contain;
+}
+
+.bottom-container {
+    width: 1280px;
+    height:100%;
+    margin: 0 auto;
+}
+
+.show-conts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 40px;
+}
+
+.show-conts .price-conts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.price-conts.sello-prc {
+    width: auto;
+}
+
+ .price-conts .price {
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.4px;
+}
+
+.price .txt-tv {
+    display: inline-block;
+    margin-left: 10px;
+    color: #191919;
+    font-size: 36px; /* 글자 크기 직접 지정 */
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    color: #662d91;
+}
+
+.btn-conts {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.ripper-area {
+    position: relative;
+}
+
+ .ripper-area .sello-bubble {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    min-width: 190px;
+    transform: translateX(-50%);
+    padding: 8px 3px;
+    align-items: center;
+    border-radius: 8px;
+    background: #eb068b;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: -.32px;
+    box-sizing: border-box;
+    color: #fff;
+    animation: MoveUpDown 3s linear infinite;
+}
+
+.sello-bubble::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-13%);
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: #eb068b;
+    border-bottom: 0;
+    margin-left: -6px;
+    margin-bottom: -6px;
+}
+
+ .btn-sello {
+    width: 350px;
+    padding: 19px 20px 20px 30px;
+    border: solid 1px #662d91;
+    background: #fff;
+}
+
+.btn-sello:hover{
+	background: none;
+}
+
+.btn-sello > span {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.32px;
+    text-align: left;
+    color: #662d91;
+}
+
+ .btn-sello span::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: url(/resources/img/icon-arrow-right-purple.svg) no-repeat 50%;
+}
+
+.btns1 {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+    color: #fff;
+    width: 260px;
+    height: 63px;
+    background: #662d91;
+    padding: 6px 0;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.btns1:hover{
+	background: none;
+} 
+
+.btns1:hover {
+    background: #662d91;
+}

@@ -70,7 +70,7 @@
 									</label></li>
 								</ul>
 								<div class="box-color-name btn-mark">
-			             <strong>생삭을 선택하세요</strong>
+			             <strong>색상을 선택하세요</strong>
 			            </div>
 			          </dd> 
 			        </dl>
@@ -319,14 +319,112 @@
 				       <table class="table-type-04">
 				         <caption class="hiddden">휴대폰 상세스펙 제공</caption>
 				         <colgroup>
-				         
+				           <col width="220px">
+				           <col width="420px">
+				           <col width="220px">
+				           <col width="*">
 				         </colgroup>
+				         <tbody class="tbody">
+				            <tr class="tr">
+				              <th scope="row">
+				                제조사
+				              </th>
+				              <td>삼성</td>
+				              <th scope="row">
+				                출시일
+				              </th>
+				              <td>2024.01.05</td>
+				            </tr>
+				            <tr class="tr">
+				              <th scope="row">
+				                크기
+				              </th>
+				              <td>161.0x76.5x8.3mm</td>
+				              <th scope="row">
+				                무게
+				              </th>
+				              <td>197g</td>
+				            </tr>
+				             <tr class="tr">
+				              <th scope="row">
+				                배터리
+				              </th>
+				              <td>5000mAh</td>
+				              <th scope="row">
+				                OS
+				              </th>
+				              <td>Android </td>
+				            </tr>
+				            <tr>
+				              <th scope="row">색상</th>
+				              <td colspan="3">라이트블루/옐로우/블루블랙</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">CPU</th>
+				              <td colspan="3">Octa-Core (2.4GHz, 2.0GHz)</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">메모리</th>
+				              <td colspan="3">6GB RAM / 128GB</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">디스플레이</th>
+				              <td colspan="3">Infinity-U Display</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">카메라</th>
+				              <td colspan="3">후면 5,000만 화소 / 전면 : 1,300만 화소</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">기타(옵션)</th>
+				              <td colspan="3">OIS 지원, FM 라디오 지원</td>
+				            </tr>
+				         </tbody>
 				       </table>
 				     </div>
 				 </div>
 				
 			    </div>
-			    <!-- 하단 시작 -->
+			    <!-- 하단 끝 -->
+			    <!-- 팝업 시작  -->
+			    
+			     <div class="bottom-layer-pop">
+			        <button class="bottom-pop-btn" type="button">
+			          <span class="ico-pop-btn">
+			             팝업열기
+			          </span>
+			        </button>
+			        <div class="bottom-container" id="paymentdetail">
+			            <div class="bottom-container" id="paymentdetail">
+			              <div class="show-conts">
+			                 <div class="price-conts sello-prc">
+			                   <div class="price">
+			                   부가세포함 월 납부 금액
+			                   <strong class="txt-tv">
+			                      <span id="monthMoneyFeeDw3">19,900</span>
+			                      원
+			                   </strong>
+			                   </div>
+			                 </div>
+			                 <div class="box-btn btn-conts">
+			                    <div class="ripper-area">
+			                      <p class="sello-bubble">		         
+			                      추가 상품권 최대 5만원
+			                      </p>
+			                      <button class="btns btn-sello" type="button">
+			                         <span>
+			                         중고폰 보상 신청하기(시세 조회)
+			                         </span>
+			                      </button>
+			                    </div>
+			                    <button class="btns1 md-ripples ripples-light" type="button" id="mobileJoinBtn" onclick="fMoveOnsaleCmmn();">휴대폰 가입 신청하기
+							</button>
+			              </div>
+			             </div>
+			         </div>
+			     </div>
+			    
+			    <!--  팝업 끝  -->
 			</div>
 		</div>
 	</form>

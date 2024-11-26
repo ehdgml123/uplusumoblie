@@ -222,6 +222,256 @@ margin-top: 30px;
 	
 }
 
+
+/* 로그인 성공시 모달 시작  */
+
+.state {
+    position: relative;
+    right: -30px;
+    top: -30px;
+    padding: 3px 7px 3px 5px;
+    border-radius: 10px;
+    background: #7c40ce;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+
+.loginboxs{
+	width: 570px;
+    height: 500px;
+    background-color: yellow;
+    position: relative;
+    left: -480px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+
+ .info-user {
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    line-height: normal;
+    letter-spacing: -.4px;
+}
+
+
+.info-user {
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.4px;
+}
+
+.member-modify {
+    width: 114px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #662d91;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -.28px;
+}
+
+.info-func {
+    padding: 30px;
+    border-top: 1px solid #ddd;
+}
+
+ .func-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0 40px;
+}
+
+
+.member-modify2{
+	background: url(/resources/img/log-doc.svg) no-repeat left top;
+    background-size: 20px 20px;
+}
+
+.func-btn> li >.member-modify2{
+	padding-left: 30px;
+    color: #191919;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+
+.func-btn>li+li {
+    margin-bottom: 30px;
+}
+
+ .func-btn .btn-num-auth {
+   background: url(/resources/img/log-phone.svg) no-repeat left top;
+   background-size: 20px 20px;
+}
+
+.func-btn> li >.btn-num-auth{
+	padding-left: 30px;
+    color: #191919;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+.guide-box {
+    padding: 30px 20px;
+    background: #f9f5ff;
+    border-radius: 10px;
+    height: 150px;
+}
+
+
+ .guide-box a {
+    display: block;
+    position: relative;
+}
+
+ .guide-box.pint-bx a p {
+    display: flex;
+    align-content: flex-start;
+}
+
+.guide-box a p {
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+
+.pint-bx a p strong {
+    display: inline-block;
+    min-width: 56px;
+}
+
+ .guide-box .pint-bx a strong {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: -.32px;
+    text-align: left;
+    color: #191919;
+}
+
+.guide-box.pint-bx a p span {
+    margin-left: auto;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: -.32px;
+    text-align: right;
+    color: #662d91;
+}
+
+
+.pint-bx a::after {
+    width: 20px;
+    height: 20px;
+     background: url(/resources/img/ico-arrow-right.svg) no-repeat center;
+    background-size: 15px;
+}
+
+ .info-func .guide-box a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: url(/resources/img/ico-arrow-right.svg) no-repeat left top;
+    background-size: 20px 20px;
+}
+
+.pint-bx a+a {
+    margin-top: 10px;
+}
+
+.guide-box.pint-bx a .ucashArea2 {
+    display: flex;
+    align-content: flex-start;
+}
+
+.guide-box a .ucashArea2 {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+
+.pint-bx a+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.guide-box > .fir{
+	font-size: 18px;
+	color: #808080;
+}
+
+.devcechg-txt {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: -.32px;
+    text-align: right;
+    color: #666;
+}
+
+.logbox-btm {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.btn-text-right-s {
+    padding-right: 22px;
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+    background: url(/resources/img/ico-arrow-right.svg) no-repeat right;
+    background-size: 15px 15px;
+    display: inline-block;
+     border: none;
+}
+
+.btn-text-right-s:hover{
+	background: none;
+}
+
+
+/* 로그인 성공시 모달 끝  */
+
+
 /* 슬라이더 시작 */
 
 .slider-container {

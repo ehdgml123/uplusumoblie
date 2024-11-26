@@ -46,10 +46,14 @@
 		      <div class="navlog">
 		       <a href="#">
 		       <img class="navimg" src="${pageContext.request.contextPath}/resources/img/navlog2.png" id="togoll">
+		      <b class="state" style="display: none;">ON</b>
 		       </a>
-		           <div class="navsub">
+		       <!--  로그인 전에만 보이는 부분 -->
+		           <div class="navsub" style="display: none;">
 		               <div class="info-basic">
-              		<button type="button" id="btns" onclick="window.location.href = '/user/login';">로그인</button>
+              		<button type="button" id="btns" class="top-login" onclick="window.location.href = '/user/login';">
+              		로그인
+              		</button>
 		                <ul class="find-join">
 		                  <li><a href="#">ID/비밀번호찾기</a></li>
 		                  <li><a href="user/join">회원가입</a></li>
@@ -63,6 +67,44 @@
 		                 </ul>
 		                 </div>
 		              </div>
+	               </div>
+	               <!-- 로그인 후에만 보이는 부분  -->
+	               <div class="loginboxs" style="display: none;">
+	                   <strong class="info-user">
+	                       <name id="gnbMmbrNm">이동희</name>
+	                       님
+	                       <a href="#" class="member-modify">회원정보수정</a>
+	                   </strong>
+	                   <div class="info-func">
+	                       <ul class="func-btn">
+	                          <li>
+	                            <a href="#" class="member-modify2">신청내역 조회</a>
+	                          </li>
+	                          <li class="btnSBMB">
+	                            <a href="#" class="btn-num-auth">유모바일 번호 인증</a>
+	                          </li>
+	                       </ul>
+	                       
+	                       <div class="guide-box pint-bx">
+	                           <a href="#">
+	                            <p>
+	                              <strong>포인트</strong>
+	                              <span id="gnbPoint">0P</span>
+	                            </p>
+	                           </a>
+	                           <a href="#">
+	                              <p id="ucashArea2">
+	                                <strong>U폰 캐시</strong>
+	                                <span id="gnbUcash">0C</span>
+	                              </p>
+	                           </a>
+	                           <p class="fir" > 친구추천하고 특별한 혜택을 받으세요</p>
+	                       </div>
+	                       <p class="devcechg-txt">기기변경 상담 1661-0556 (유료)</p>
+	                   </div>
+	                   <div class="logbox-btm">
+	                   <button onclick="" class="btn-text-right-s btn-logout" type="button">로그아웃</button>
+	                   </div>
 	               </div>
 		    </div>
 		      <div class="navlog">
@@ -104,4 +146,56 @@ $(document).ready(function() {
 
 <!-- 로그인 모달 -->
 
+
+<!-- 로그인 전 모달 -->
+$(document).ready(function() {
+	    $('#togoll').click(function() {
+	        $('.navsub').toggle();  // .navsub의 표시/숨김을 토글
+	    });
+	});
+
+<!-- 로그인 전 모달 -->
+
+
+<!-- 로그인 후 모달 -->
+$(document).ready(function() {
+	    $('#togoll').click(function() {
+	        $('.loginboxs').toggle();  // .navsub의 표시/숨김을 토글
+	    });
+	});
+
+<!-- 로그인 후 모달 -->
+
+
+/* 로그인 전, 후 보여주는   */
+
+function checkLoginStatus() {
+
+  return false; // true는 로그인 상태, false는 비로그인 상태
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navSub = document.querySelector(".navsub");
+  const loginBox = document.querySelector(".loginboxs");
+  const navImg = document.querySelector(".navlog > a");
+
+  if (checkLoginStatus()) {
+    // 로그인 상태일 경우
+    navSub.style.display = "none";
+    loginBox.style.display = "block";
+    navImg.style.display = "block";
+  } else {
+    // 비로그인 상태일 경우
+    navSub.style.display = "block";
+    loginBox.style.display = "none";
+    navImg.style.display = "none";
+  }
+});
+
+/* 로그인 전, 후 보여주는   */
+ * 
+ 
+ 
+ 
+ */
 </script>
