@@ -1,9 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <body>
    <div id="header">   
           <div class="logbox">
+           <a href="/">
               <img class="logimg" src="${pageContext.request.contextPath}/resources/img/headerlogo.png">
+              </a>
           </div>
          <div class="col-md-10">
 			<ul class="lower-navbar">
@@ -11,8 +14,8 @@
 			    <li><a href="#" id="toggleLink">휴대폰</a></li>
 			    <li><a href="">상품</a></li>
 				<li><a href="#">이벤트/혜택</a></li>
-				<li><a href="#">공지사항</a></li>
-				<li><a href="#">내 정보</a></li>
+				<li><a href="/user/notice">공지사항</a></li>
+				<li><a href="/user/Edit">내 정보</a></li>
 				<li><a href="#">유모바일</a></li>			
 			</ul>
 			<div class="submenu">
@@ -46,10 +49,10 @@
 		      <div class="navlog">
 		       <a href="#">
 		       <img class="navimg" src="${pageContext.request.contextPath}/resources/img/navlog2.png" id="togoll">
-		      <b class="state" style="display: none;">ON</b>
+		      <b class="state"  style="display: none;">ON</b>
 		       </a>
 		       <!--  로그인 전에만 보이는 부분 -->
-		           <div class="navsub" style="display: none;">
+		           <div class="navsub" >
 		               <div class="info-basic">
               		<button type="button" id="btns" class="top-login" onclick="window.location.href = '/user/login';">
               		로그인
@@ -69,7 +72,7 @@
 		              </div>
 	               </div>
 	               <!-- 로그인 후에만 보이는 부분  -->
-	               <div class="loginboxs" style="display: none;">
+	               <div class="loginboxs"style="display: none;">
 	                   <strong class="info-user">
 	                       <name id="gnbMmbrNm">이동희</name>
 	                       님
@@ -147,26 +150,6 @@ $(document).ready(function() {
 <!-- 로그인 모달 -->
 
 
-<!-- 로그인 전 모달 -->
-$(document).ready(function() {
-	    $('#togoll').click(function() {
-	        $('.navsub').toggle();  // .navsub의 표시/숨김을 토글
-	    });
-	});
-
-<!-- 로그인 전 모달 -->
-
-
-<!-- 로그인 후 모달 -->
-$(document).ready(function() {
-	    $('#togoll').click(function() {
-	        $('.loginboxs').toggle();  // .navsub의 표시/숨김을 토글
-	    });
-	});
-
-<!-- 로그인 후 모달 -->
-
-
 /* 로그인 전, 후 보여주는   */
 
 function checkLoginStatus() {
@@ -193,9 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /* 로그인 전, 후 보여주는   */
- * 
- 
- 
- 
- */
+
+/* 로그인 전, 후 보여주는   */
+
 </script>

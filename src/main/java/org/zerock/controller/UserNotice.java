@@ -10,18 +10,12 @@ import lombok.extern.log4j.Log4j;
 @Controller
 @RequestMapping("/user")
 @Log4j
-public class UserjoinController {
-
-    @GetMapping("/join")
+public class UserNotice {
+	
+	@GetMapping("/notice")
     public String userLogin(Model model) {
-        log.info("user Login page");
-        return "user/join";  
+        log.info("공지사항 page....");
+        return "user/notice";  
     }
-    
-    @GetMapping("/Edit")
-    public String userEdit(Model model) {
-        log.info("Edit page.....");
-        return "user/Edit";  
-    }
-    
+
 }

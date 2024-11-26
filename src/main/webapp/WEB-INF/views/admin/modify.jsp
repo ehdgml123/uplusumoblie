@@ -169,7 +169,7 @@
 										</div>
 										<div class="col-md-3">
 											<button type="submit" class="btn btn-warning btn-sm" onclick="return clickSubmit()">등록하기</button>
-											<button type="button" class="btn btn-primary btn-sm" onclick="location.href='/admin/notice/list'">목록으로</button>
+											<button type="button" class="btn btn-primary btn-sm" onclick="location.href='/admin/notice'">목록으로</button>
 										</div>
 									</div>
 								</div>
