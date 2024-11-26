@@ -169,7 +169,7 @@
          <div class="listWrap" id="listWrap-class">
             <ul class="card-group">
               <li>
-                <a href="#"> 
+                <a href="/phone/PhoneDetail"> 
                    <div class="chip-wrap">
                       <img src="${pageContext.request.contextPath}/resources/img/rkrtjdql.png" alt="">
                       <img src="${pageContext.request.contextPath}/resources/img/gkfdls.png" alt="">
@@ -185,15 +185,183 @@
                            </span>
                            삼성 갤럭시 A24
                          </h3>
+                         <p>LTE (1.5GB/통화기본)</p>
+                         <p>통신요금 25,900원+할부금 0원</p>
+                         
                       </div>
                         <div class="phone-cont-bottom">
-                     
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 <span class="dc-prc">25,500원</span>
+                                 19,300원
+                              </strong>
+                            </p>
                          </div>   
                    </div>
-                   
                 </a>  
               </li>
-               
+              <li>
+                <a href="#"> 
+                   <div class="chip-wrap">
+                      <img src="${pageContext.request.contextPath}/resources/img/dlsrl.png" alt="">
+                   </div>
+                   <div class="phone-img">
+                      <img src="${pageContext.request.contextPath}/resources/img/A35 front.png">
+                   </div>
+                   <div class="phone-cont">
+                      <div class="phone-cont-top">
+                         <h3 class="main-txt">
+                           <span class="chip">
+                              <img src="${pageContext.request.contextPath}/resources/img/chip-5g.png">
+                           </span>
+                           삼성 갤럭시 A35
+				      
+                         </h3>
+                         <p>5G (5GB/3000분)</p>
+                         <p>통신요금 25,400원+할부금 0원</p>
+                         
+                      </div>
+                        <div class="phone-cont-bottom">
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 25,400원
+                              </strong>
+                            </p>
+                         </div>   
+                   </div>
+                </a>  
+              </li>
+                 <li>
+                <a href="#"> 
+                   <div class="chip-wrap">
+                      <img src="${pageContext.request.contextPath}/resources/img/신규(6).png" alt="">
+                     <img src="${pageContext.request.contextPath}/resources/img/플래그쉽(2).png" alt="">
+                     <img src="${pageContext.request.contextPath}/resources/img/chip-slevel.png" alt="">
+                   </div>
+                   <div class="phone-img">
+                      <img src="${pageContext.request.contextPath}/resources/img/036-galaxy-zflip5.png">
+                   </div>
+                   <div class="phone-cont">
+                      <div class="phone-cont-top">
+                         <h3 class="main-txt">
+                           <span class="chip">
+                              <img src="${pageContext.request.contextPath}/resources/img/chip-5g.png">
+                           </span style="pont-size:10px;">
+                           (미개통) 갤럭시 Z플립5
+                         </h3>
+                         <p>5G (5GB/3000분)</p>
+                         <p>통신요금 25,400원+할부금 0원</p>
+                         
+                      </div>
+                        <div class="phone-cont-bottom">
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 36,610원
+                              </strong>
+                            </p>
+                         </div>   
+                   </div>
+                </a>  
+              </li>
+               <li>
+                <a href="#"> 
+                   <div class="chip-wrap">
+                      <img src="${pageContext.request.contextPath}/resources/img/P_공시강화.png" alt="">
+                     <img src="${pageContext.request.contextPath}/resources/img/추가 상품권.png" alt="">
+                   </div>
+                   <div class="phone-img">
+                      <img src="${pageContext.request.contextPath}/resources/img/redmi note 13.png">
+                   </div>
+                   <div class="phone-cont">
+                      <div class="phone-cont-top">
+                         <h3 class="main-txt">
+                           <span class="chip">
+                              <img src="${pageContext.request.contextPath}/resources/img/chip-lte.png">
+                           </span style="pont-size:10px;">
+                           Redmi Note 13 256G
+                         </h3>
+                         <p>LTE (2GB/120분)</p>
+                         <p>통신요금 19,000원+할부금 0원</p>
+                         
+                      </div>
+                        <div class="phone-cont-bottom">
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 19,000원
+                              </strong>
+                            </p>
+                         </div>   
+                   </div>
+                </a>  
+              </li>
+              <li>
+                <a href="#"> 
+                   <div class="chip-wrap">
+                      <img src="${pageContext.request.contextPath}/resources/img/P_공시강화.png" alt="">
+                     <img src="${pageContext.request.contextPath}/resources/img/추가 상품권.png" alt="">
+                   </div>
+                   <div class="phone-img">
+                      <img src="${pageContext.request.contextPath}/resources/img/003_galaxynote10_product.png">
+                   </div>
+                   <div class="phone-cont">
+                      <div class="phone-cont-top">
+                         <h3 class="main-txt">
+                           <span class="chip">
+                              <img src="${pageContext.request.contextPath}/resources/img/chip-5g.png">
+                           </span style="pont-size:10px;">
+                           Redmi Note 13 256G
+                         </h3>
+                         <p>LTE (2GB/120분)</p>
+                         <p>통신요금 19,000원+할부금 0원</p>
+                         
+                      </div>
+                        <div class="phone-cont-bottom">
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 19,000원
+                              </strong>
+                            </p>
+                         </div>   
+                   </div>
+                </a>  
+              </li>
+              <li>
+                <a href="#"> 
+                   <div class="chip-wrap">
+                      <img src="${pageContext.request.contextPath}/resources/img/P_공시강화.png" alt="">
+                     <img src="${pageContext.request.contextPath}/resources/img/새제품.png" alt="">
+                   </div>
+                   <div class="phone-img">
+                      <img src="${pageContext.request.contextPath}/resources/img/002_galaxy_s23plus.png">
+                   </div>
+                   <div class="phone-cont">
+                      <div class="phone-cont-top">
+                         <h3 class="main-txt">
+                           <span class="chip">
+                              <img src="${pageContext.request.contextPath}/resources/img/chip-5g.png">
+                           </span style="pont-size:10px;">
+                           갤럭시 S23+ 256G
+                         </h3>
+                         <p>5G (5GB/200분)</p>
+                         <p>통신요금 23,500원+할부금 25,520원</p>
+                         
+                      </div>
+                        <div class="phone-cont-bottom">
+                            <p class="normal-txt">
+                              월 납부금액
+                              <strong class="txt-vt">
+                                 19,000원
+                              </strong>
+                            </p>
+                         </div>   
+                   </div>
+                </a>  
+              </li>
             </ul>
          </div>
     </div>
@@ -201,7 +369,7 @@
  
 
  
- <%--  <%@ include file="../includes/mainfooter.jsp"%> --%>
+<%--  <%@ include file="../includes/mainfooter.jsp"%> --%>
 </body>
 </html>
 <script>

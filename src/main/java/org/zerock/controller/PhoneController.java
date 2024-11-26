@@ -11,9 +11,17 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class PhoneController {
 
-    @GetMapping("/phoneproduct") // 소문자로 통일
+    @GetMapping("/phoneproduct") 
     public String phoneProductPage() {
         log.info("상품 페이지 이동완료...");
-        return "phone/phoneproduct"; // 뷰 이름 반환
+        return "phone/phoneproduct"; 
     }
+    
+    
+    @GetMapping("/PhoneDetail") 
+    public String phoneProductDetail() {
+        log.info("상품 상세페이지 이동완료...");
+        return "phone/PhoneDetail"; 
+    }
+    
 }

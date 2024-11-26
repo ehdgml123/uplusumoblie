@@ -182,7 +182,7 @@ float: left;
 /*  상품 리스트  */
 .intro-list-wrap{
 	width: 1700px;
-	height: 1500px;
+	height: 1800px;
 	background-color: pink;
 	margin-top: 70px;
 	margin-left: auto;
@@ -232,13 +232,13 @@ float: left;
 
 .card-group {
     display: grid;
-    gap: 30px;
+        gap: 120px 0;
         grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-group li {
     width: 510px;
-    height: 705px;
+    height: 775px;
     background-color: skyblue;
     
 }
@@ -307,10 +307,51 @@ float: left;
     display: inline-block;
 }
 
+.phone-cont-top>p {
+    color: #666;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+
 .phone-cont >.phone-cont-bottom {
     border-top: 1px solid #ddd;
     margin-top: 40px;
     padding-top: 40px;
+}
+
+.normal-txt {
+    color: #191919;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+}
+
+.normal-txt .txt-vt {
+    position: relative;
+    font-size: 34px;
+    margin-left: 10px;
+}
+
+.txt-vt .dc-prc {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    min-width: 300px;
+    text-align: right;
+    color: #666;
+    font-size: 26px;
+    text-decoration: line-through;
+    letter-spacing: -.32px;
+}
+
+.txt-vt {
+    color: #662d91 !important;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
 }
 /* 핸드폰 상품 리스트  끝 */
 
